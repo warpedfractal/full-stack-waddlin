@@ -45,3 +45,11 @@ It is only the local copy where the changes are registered; One reload and you c
 - The lectures may get tougher. So does life. Go back, listen to the lecture, bookmark and review it, come back and succeed. That's life! New things are where you put in time and effort.
 - Stuck you will be, dearie hmm hahahaha. Imagine being a fully fledged dev, the PROfessional. Use the tools of a pro: Google, StackOverflow. You're often not the first person to happenstance upon the problem.
 - Fixing your code and finally making it work: **PURE. EUPHORIA**.
+
+## When Stuck
+
+- Eval code *expectations* v reality. And what's the bridge to draw between.
+- Exercise the Google+StackOverflow combination. Pro move.
+- Revisit the session(s), materials.
+- Ask Questions. On Udemy Q&A, and ppl that know.
+- Google, Everything. All of it. A good friend, that one.

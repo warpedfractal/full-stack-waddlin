@@ -1,13 +1,13 @@
-# 🐤 Waddling the Way of the Full Stack
+# Waddling the Way of the Full Stack
 
 Waddling the way of the full stack, byte by byte.
-Codes, notes, deets from the learning sessions.
+Codes, notes, deets from the learning sessions. Here, take a seat. 💺
 
 ---
 
 ## What’s This?
 
-This repo is my personal playground and notebook as I stumble, trip, and (sometimes) sprint through the wild world of full stack web dev.
+teThis repo is my personal playground and notebook as I stumble, trip, and (sometimes) sprint through the wild world of full stack web dev.
 Code, notes, random thoughts, and maybe a few rants. And some 404s. For sure.
 
 ## What’s Inside?
