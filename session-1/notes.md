@@ -16,7 +16,7 @@ Think of the internet as a giant network where computers chat with each other an
 
 - [submarinecablemap.com](https://www.submarinecablemap.com): Shows the underwater cables that connect the internet across the world.
 - [nslookup.io](https://www.nslookup.io): Lets you find the IP address (server location) of any website you type in.
-- [keybr.com](keybr.com): focus on typing speed. 
+- [keybr.com](keybr.com): focus on typing speed.
 
 ## How a Website Works
 
@@ -35,7 +35,7 @@ Most websites are made up of three main files: **HTML**, **CSS**, and **JS**.Why
 **Pro tip:**
 Right-click on any website and hit "Inspect." You’ll see the code behind what’s on the page.
 Try finding the code for the "Google Search" button—you can even change its label to something silly like "Lissajous Search."
-It is only the local copy where the changes are registered; One reload and you cure the site of its drunkenness. 
+It is only the local copy where the changes are registered; One reload and you cure the site of its drunkenness.
 
 ## Useful Tips: Code, Get the Most, Out this Course
 
