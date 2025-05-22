@@ -1,14 +1,14 @@
 # Waddling the Way of the Full Stack
 
 Waddling the way of the full stack, byte by byte.
-Codes, notes, deets from the learning sessions. Please, take a seat. 💺
+Codes, notes, deets from the learning sessions. Here, take a seat. 💺
 
 ---
 
 ## What’s This?
 
 This repo is my personal playground and notebook as I stumble, trip, and (sometimes) sprint through the wild world of full stack web dev.
-Code, notes, random thoughts, and maybe a few rants. Some 404s. For sure.
+Code, notes, random thoughts, maybe a few rants. Some 404s. For sure.
 
 ## What’s Inside?
 
@@ -17,7 +17,3 @@ Code, notes, random thoughts, and maybe a few rants. Some 404s. For sure.
 - **Useful links:** Resources, tools, and whatever else helped me survive the wilderness of stack.
 
 > Inspired by Dr. Angela Yu’s Full Stack course on [Udemy](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
-
----
-
-*Feel free to peek, fork, star-- for all, is the waddle way!*

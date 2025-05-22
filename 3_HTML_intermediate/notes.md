@@ -4,12 +4,13 @@
 
 <ul>
     <li>Point in an unordered list </li>
-    <li>By default, displayed as bullets </li> 
-    <ol> 
-        <li>This, point, however? In an Ordered list </li>
-        <li>When some hierarchy is needed, defaults to numbered </li>
-	<li>Use formatting too--gotta show who's de boss
-    </ol>
+    <li>By default, displayed as bullets 
+    	<ol> 
+        	<li>This, point, however? In an Ordered list </li>
+        	<li>When some hierarchy is needed, defaults to numbered </li>
+		<li>Use formatting too--Easier readability goes harder. 
+    	</ol>
+    </li>
 </ul>
 
 **Note:**
@@ -19,3 +20,6 @@
 - Use lists to organize info, show steps, or highlight key points!
 
 ## Nesting and Indent
+
+- Stack lists inside of others for a proper narration of your intention
+-
