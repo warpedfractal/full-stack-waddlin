@@ -16,4 +16,6 @@ Code, notes, random thoughts, maybe a few rants. Some 404s. For sure.
 - **Code samples:** Stuff I wrote, broke, and (hopefully) fixed.
 - **Useful links:** Resources, tools, and whatever else helped me survive the wilderness of stack.
 
+
+> *"Everyone can count to a million. It's whether you **want** to"*
 > Inspired by Dr. Angela Yu’s Full Stack course on [Udemy](https://www.udemy.com/course/the-complete-web-development-bootcamp/).

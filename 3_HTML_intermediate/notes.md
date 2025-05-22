@@ -21,5 +21,17 @@
 
 ## Nesting and Indent
 
-- Stack lists inside of others for a proper narration of your intention
--
+- Stack lists inside others from a proper narration of your intention
+- Indents tell you who's the boss of which list--a visual cue that helps navigate the code waters.
+
+## Anchors
+
+- Hyperlinks in HTML.
+- `<a href="">Linked content </a>`
+- Format in general: `<tag attribute=value>Content </tag>`
+- Attributes give tags extra powers; some are common, some are tag-specific.
+
+
+## Images 
+
+- `<img src="url/size" alt="alternative text description (helps blind users and adds a descriptor in general) - Image"/>`
