@@ -1,0 +1,28 @@
+.fractal-link {
+  position: relative;
+  color: #00ff88; /* Matrix green */
+  text-decoration: none;
+}
+
+.fractal-link:hover {
+  text-shadow: 0 0 5px #00ff88, 
+               0 0 15px #00ff88; /* Glow effect */
+}
+
+.fractal-link::after {
+  content: "↓";
+  position: absolute;
+  right: -15px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.fractal-link:hover::after {
+  opacity: 1;
+  animation: fractal-bounce 0.5s infinite alternate;
+}
+
+@keyframes fractal-bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(3px); }
+}
