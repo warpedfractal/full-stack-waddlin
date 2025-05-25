@@ -9,7 +9,7 @@
 - In (web) projects etc., we often start paths from the *Project* folder, not the root. That way, if folders move around above *Project*, your code still works—shorter, smarter journeys.
 - `../essay.docx` means “go up one folder from where you are, then look for essay.docx.”
 - `./dog.png` means “look for dog.png right here in the current folder.” More dots (`../../`) mean go up more levels.
-- The `.` is your current location (like saying “I’m here”). `..` is one step up. `...` (not standard, but you get the idea) would be two steps up, and so on.
+- The `.` is one step up, your present directory (like saying “I’m here”). `..` is two steps up. `../.` would be three up, and so on.
 
 **Bottom line:**
 File paths are your map—absolute for the full address, relative for directions from where you are. Get comfy with both, and you’ll never lose your way in your project folders.
@@ -39,3 +39,8 @@ File paths are your map—absolute for the full address, relative for directions
   </body>
 </html>
 ```
+
+## Hosting 
+
+- Making your website for anybody anywhere to view and interact
+- So you put all that's needed, i.e., your Project folder, on a web server, making it available online 24/7. 
