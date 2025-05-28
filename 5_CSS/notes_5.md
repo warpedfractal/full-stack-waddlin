@@ -2,9 +2,9 @@
 
 - **Cascading Style Sheets (CSS):** Think of it like a waterfall—styles flow from the most general to the most specific.
 - **Style Sheet:** A language for describing how things look, just like HTML is for structure and content.
-    - There are other style sheet languages too:
-        - **SASS:** Syntactically Awesome Style Sheets
-        - **LESS:** Leaner CSS
+  - There are other style sheet languages too:
+    - **SASS:** Syntactically Awesome Style Sheets
+    - **LESS:** Leaner CSS
 
 ## How Did CSS Come to Be?
 
@@ -61,9 +61,9 @@
 -->
 ```
 
-## CSS Selectors 
+## CSS Selectors
 
-### Element Selector 
+### Element Selector
 
 ```css
 h1{
@@ -73,26 +73,27 @@ h1{
 ```
 
 ### Class Selector
+
 ```css
 .red-heading{
     color: red;
 }
 ```
+
 ```html
 <h2 class="red-heading">Red </h2>
 <!--tag-agnostic; just add the class to whatever content and it does the job -->
 ```
 
-### Id Selector 
+### Id Selector
 
 ```css
-h1{
-    color: aquamarine;
-    /* unique to ONE usage INSTANCE ONLY per html file */
+#main{
+  color: red;
 }
 ```
 
-### Attribute Selector 
+### Attribute Selector
 
 ```css
 p[draggable="true"]{
@@ -102,11 +103,13 @@ p[draggable="true"]{
 }
 ```
 
-### Universal Selector 
+### Universal Selector
 
 ```css
 *{
     color: "red"
-    /* the universal doesn't see class, id or attribute; applies to entire place the stylesheet is active */
+    /* the universal does not see class, id or attribute; applies to entire place the stylesheet is active */
 }
 ```
+
+Note that there's something called ***CSS Specificity*** that decides which rules override which ones. 

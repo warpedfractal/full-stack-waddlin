@@ -5,3 +5,27 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+
+p{
+    color: red;
+}
+
+/* universal selector */
+*{
+  text-align: center;
+}
+
+#id-selector-demo {
+  color: green;
+}
+
+/* element selector */
+.note{
+  font-size: 20px;
+}
+
+/* attribute selector */
+li[value="4"]{
+  color: blue;
+}
+
