@@ -1,6 +1,6 @@
 # Waddling the Way of the Full Stack
 
-Waddling the way of the full stack, byte by byte.
+Waddlin the way of the full stack, byte by byte.
 Codes, notes, deets from the learning sessions. Here, take a seat. 💺
 
 ---
@@ -15,6 +15,7 @@ Code, notes, random thoughts, maybe a few rants. Some 404s. For sure.
 - **Session notes:** Takeaways, “eureka!”s, reminders to self.
 - **Code samples:** Stuff I wrote, broke, and (hopefully) fixed.
 - **Useful links:** Resources, tools, and whatever else helped me survive the wilderness of stack.
+
 
 > *"Everyone can count to a million. It's whether you **want** to."*
 >

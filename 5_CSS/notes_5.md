@@ -25,7 +25,11 @@
 - The style attribute works on any HTML tag (images, links, etc.)
 - Best for quick, one-off tweaks. Gets messy if used everywhere.
 -->
+```
 
+### Internal
+
+```html
 <!-- Internal CSS: styles go inside a <style> tag in the <head> -->
 <html>
   <head>
@@ -43,7 +47,11 @@
 - Good for styling a single page.
 - Keeps styles separate from content, but only applies to this file.
 -->
+```
 
+### External
+
+```html
 <!-- External CSS: link to a separate .css file -->
 <html>
   <head>
@@ -108,8 +116,17 @@ p[draggable="true"]{
 ```css
 *{
     color: "red"
-    /* the universal does not see class, id or attribute; applies to entire place the stylesheet is active */
+    /* the universal does not see class, id or attribute; for its grace hits the entire stylesheet */
 }
 ```
 
-Note that there's something called ***CSS Specificity*** that decides which rules override which ones. 
+***Note:***
+There’s something called ***CSS Specificity*** that decides which rules override which ones.
+
+## In Summary,
+
+- **Element:** Targets all of a specific tag.
+- **Class:** Reusable, tag-agnostic, use for groups of elements.
+- **ID:** Unique, one per page, for special cases.
+- **Attribute:** Targets elements with specific attributes.
+- **Universal:** Hits everything—use with care!

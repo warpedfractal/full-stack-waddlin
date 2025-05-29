@@ -9,6 +9,7 @@ References that help sift from waddle to walk
 - [diffchecker.com](diffchecker.com): Check code differences
 - [mdnwebdocs/anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a): Anchor elements.
 - [loremIpsum]()
-- [lipsum.com](lipsum.com), which maybe seasoned with [baconipsum.com](baconipsum.com) and yo'd up with [broipsum.com](broipsum.com) and more, arr matey!
+  - [lipsum.com](lipsum.com), which maybe seasoned with [baconipsum.com](baconipsum.com) and yo'd up with [broipsum.com](broipsum.com) and more, arr matey!
 - [picsum.com](picsum.com) for random images
 - [Silktide](https://chromewebstore.google.com/detail/silktide-accessibility-ch/mpobacholfblmnpnfbiomjkecoojakah) reads out websites aloud
+- [rgb-mixer](https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/) mix colors for corresponding RGB values
