@@ -1,22 +1,23 @@
 # CSS Properties
 
 ## Color
-- lotta colors - [found](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color) in CSS. 
+
+- lotta colors - [found](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color) in CSS.
 - [colorhunt.co](colorhunt.co) got an exhaustive palette too bros
 
 ## Key Links
 
 - [rgb-mixer](https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/): mix colors for corresponding RGB values
 
-
 ## Fonts
 
-### Sizes 
-- 1 Pixel (1px) = 1/96th an inch 
+### Sizes
+
+- 1 Pixel (1px) = 1/96th an inch
 - 1 Point (1pt) = 1/72nd of an inch (this is the font size adjustment in Word docs)
-- 1em *(relative-font)*: Basically stands for a full width of the letter 'm'. Where 'm' stands for *Mother*. 
-    Essentially, takes the size of the parent font size. 
-- 1rem *(relative-font-size-size)*: Similar to em, except equates to font straight from the **root** html source. Basically, if em consults the local priest, rem straight up goes to God. 
+- 1em *(relative-font)*: Basically stands for a full width of the letter 'm'. Where 'm' stands for *Mother*.
+  Essentially, takes the size of the parent font size.
+- 1rem *(relative-font-size-size)*: Similar to em, except equates to font straight from the **root** html source. Basically, if em consults the local priest, rem straight up goes to God.
 
 ```html
 <!-- Illustrating the difference between em and rem in CSS -->
@@ -49,11 +50,11 @@
 ```
 
 ***Recommendation:***
-When using relative fonts, prefer rem considering its singular source; for em, the longer the code goes more confusing it gets. ESPECIALLY when working with a sepr8 CSS file. 
+When using relative fonts, prefer rem considering its singular source; for em, the longer the code goes more confusing it gets. ESPECIALLY when working with a sepr8 CSS file.
 
-### Weights 
+### Weights
 
-- Keywords: bold, italic; 
+- Keywords: bold, italic;
 - Relative: lighter, bolder (w.r.t parent)
 - number: 100-900 (define how lighter/ darker you need)
 
@@ -61,4 +62,4 @@ When using relative fonts, prefer rem considering its singular source; for em, t
 
 - font-family: Typeface-Name, generic-font-type;
 - when font has many words just put quotes around that "Times New Roman"
-- 
+- [Google Fonts](https://fonts.google.com/) is a good collection of fonts; embed its link in html, add the appropriate font family in css, and you're good to go!
