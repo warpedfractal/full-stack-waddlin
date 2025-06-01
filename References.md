@@ -13,5 +13,6 @@ References that help sift from waddle to walk
 - [picsum.com](picsum.com) for random images
 - [Silktide](https://chromewebstore.google.com/detail/silktide-accessibility-ch/mpobacholfblmnpnfbiomjkecoojakah) reads out websites aloud
 - [rgb-mixer](https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/) mix colors for corresponding RGB values
+- [colorhunt.co](colorhunt.co) color choices for you, you, and you!
 - [Google Fonts](https://fonts.google.com/) is a good collection of fonts;
 -
