@@ -1,0 +1,26 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+.box > p { /*a box element that has a paragraph nested directly one level below; cannot use 'done' class, as we would be linking to the list and list elements too */
+ color: firebrick;
+}
+
+.list > li { /*works the same with space and > */
+    color: blue;
+}
+
+/* same as above but different: */
+
+.box li { /*more specific and less prone to undesired applications */
+    color: blue;
+}
+
+li.done {
+    color: seagreen;
+}
+
+ul > p.done {
+    font-size: 0.5rem;
+}

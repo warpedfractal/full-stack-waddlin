@@ -1,0 +1,26 @@
+/* Don't change the existing CSS. */
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+#outer-box {
+  border: 10px solid purple;
+  /* goes to the top, cause of cascade */
+}
+
+.inner-box {
+  background-color: red;
+  /* Stays below the box class; This rule overrides the background color set by the "box" class */
+
+}
+
+.white-text {
+  color:white;
+}
