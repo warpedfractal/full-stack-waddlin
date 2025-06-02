@@ -79,36 +79,6 @@ h1#Title.big-heading.heading {
 }
 ```
 
-## CSS Positioning
-
-Not knowing CSS body positioning makes your website like a human body--one with the hands interchanged with legs. It works, sure. At what cost?
-
-That is why it is necessary to understand positioning and its influence on the ruleset. There's 4 kinds of positioning: 
-
-### Static
-- HTML default flow
-
-### Relative 
-- Position relative to default
-
-### Absolute 
-- Position relative to the nearest ancestor. 
-- If not, the top left of the webpage. 
-
-### Fixed
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 💡 Key Takeaways
 
 - The cascade flows top to bottom in your CSS file.
@@ -123,3 +93,97 @@ selector selectorselector {
     font-size: 2rem;
 }
 ```
+
+## CSS Positioning [add analogies/ examples appropriate to each]
+
+Forgetting CSS positioning is like swapping your arms and legs – technically functional, bit chaotic. Here's how to keep your elements anatomically accurate:
+
+### 🧍 Static (Default Posture)
+
+**Normal document flow** – elements stand in their natural order.
+
+```css
+div { position: static; } /* Default behavior */  
+```
+
+*People standing in a queue – each takes their natural place.*
+
+### 🚶 Relative (Taking a Step)
+
+Adjusts position relative to its default location. Others don't rearrange around it.
+
+```css
+.box {  
+  position: relative;  
+  top: 20px;  /* Move 20px down from top */  
+  left: 30px; /* Move 30px right from left */  
+} 
+```
+
+*Stepping forward in line – you move, but others stay put.*
+
+### Absolute (Free Runner)
+
+Removed from normal flow.
+Positions relative to nearest positioned ancestor (or the browser window).
+
+```css
+.parent { position: relative; } /* Anchor point */  
+.child {  
+  position: absolute;  
+  bottom: 0; /* Stick to parent's bottom */  
+  right: 0;  /* Stick to parent's right */  
+}  
+```
+
+*A helium balloon 🎈 tied to a parent's hand – moves with them, ignores others.*
+
+### Z-Index (rxample/ analogy as needed)
+
+- Determines which elements go atop which, in the z-axis
+
+```css
+z-index: -1; 
+/* object goes under everything else on the webpage at every overlap instance */
+```
+
+### 📌 Fixed (Window Sticker)
+
+Locks to browser viewport. Stays put during scrolling.
+
+```css
+.navbar {  
+  position: fixed;  
+  top: 0;    /* Glues to top */  
+  width: 100%;  
+}  
+```
+
+*A street sign bolted to your car windshield – stays visible no matter how far you drive.*
+
+## Z-Index
+
+Controls vertical stacking order when elements overlap:
+
+```css
+.modal {  
+  position: absolute;  
+  z-index: 100; /* Higher = closer to viewer */  
+}  
+
+.background {  
+  z-index: -1; /* Sinks behind content */  
+}  
+```
+
+Stacked pancakes – syrup (high z-index) flows over the top pancake, plate (low z-index) stays underneath.
+
+## ⚠️ Critical Insight
+
+**Absolute/Fixed elements:**
+
+- Ignore normal document flow (like floating balloons)
+- Need top/bottom/left/right to position explicitly
+- Default to top-left corner if positioning undefined
+*Return to flow: Switch to position: static or relative.*
+
