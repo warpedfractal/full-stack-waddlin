@@ -161,7 +161,7 @@ Locks to browser viewport. Stays put during scrolling.
 
 *A street sign bolted to your car windshield – stays visible no matter how far you drive.*
 
-## Z-Index
+### Z-Index
 
 Controls vertical stacking order when elements overlap:
 
@@ -176,7 +176,7 @@ Controls vertical stacking order when elements overlap:
 }  
 ```
 
-Stacked pancakes – syrup (high z-index) flows over the top pancake, plate (low z-index) stays underneath.
+*Stacked pancakes – syrup (high z-index) flows over the top pancake, plate (low z-index) stays underneath.*
 
 ## ⚠️ Critical Insight
 
@@ -185,5 +185,5 @@ Stacked pancakes – syrup (high z-index) flows over the top pancake, plate (low
 - Ignore normal document flow (like floating balloons)
 - Need top/bottom/left/right to position explicitly
 - Default to top-left corner if positioning undefined
-*Return to flow: Switch to position: static or relative.*
-
+  *Return to flow: Switch to position: static or relative.*
+- **Any and every positioning style is treated against the parent.**
