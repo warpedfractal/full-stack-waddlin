@@ -7,33 +7,41 @@
   <style>
     /* Write your CSS Code here */
     .flag {
-      background-color: darkred;
+      margin: 0%;
       width: 900px;
       height: 600px;
+      background-color: #ce1126;
       position: relative;
-      text-align: center;
     }
 
-    p ~ div {
-      background-color: darkblue;
-      width: 900px;
+    .flag > div {
+      width: 100%;
       height: 300px;
-      position: relative;
-      top: 100px;
-      
+      background-color: #002868;
+      position: absolute;
+      top: 23.5%;
     }
 
-    .flag div>p {
+    .flag div > div {
       width: 200px;
       height: 200px;
-      font-size: large;
       border-radius: 50%;
       background-color: white;
       position: relative;
-      top: 50px;
-      margin: 0 auto;
+      top: 17%;
+      left: 40%;
+    }
+
+    p {
+      margin: 0%;
+      font-size: 5rem;
       text-align: center;
-      justify-content: center;
+      color: black;
+      /* position: relative; */
+    }
+
+    .flag > p {
+      color: white;
     }
   </style>
 </head>

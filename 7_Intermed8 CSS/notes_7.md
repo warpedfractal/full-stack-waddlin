@@ -87,6 +87,7 @@ h1#Title.big-heading.heading {
 - Combinators let you "fish" for elements in specific relationships.
 - Combinators may be combined for different specificities to styling!
 - Classes, ids, html attributes--all may be used in the complex khichdi that is the css ruleset!
+- **You can directly copy the exact selector for an element from the Inspector of that element.** 
 
 ```css
 selector selectorselector {
@@ -138,7 +139,7 @@ Positions relative to nearest positioned ancestor (or the browser window).
 
 *A helium balloon 🎈 tied to a parent's hand – moves with them, ignores others.*
 
-### Z-Index (rxample/ analogy as needed)
+### Z-Index
 
 - Determines which elements go atop which, in the z-axis
 
