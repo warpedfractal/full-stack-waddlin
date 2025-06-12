@@ -103,7 +103,7 @@ Instead of tweaking each element's quirks, understanding these three display typ
 
 ### Flexbox
 If  grid ≘ 2D layout, 
-    Flexbox ≘ 1D layout. 
+    Flexbox ≘ 1D. 
     
 ```html
 <div class="flex-container">
@@ -124,3 +124,42 @@ If  grid ≘ 2D layout,
     flex: 1;
 }
 ```
+
+
+### Bootstrap Framework
+- Not built into css; thus framework
+- custom css code that can be imported with their usage of rules 
+- content can be sorted into containers, rows, cards etc with specified properties 
+- basically add in the framework and the corresponding class
+
+In summary
+- These are some ways to make responsive web design happen on our site--
+    - Media Query
+    - Flexbox
+    - Grid
+    - Bootstrap
+
+## Deeper Dive
+
+### [Media Query](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+Say we have a piece of code
+```css
+@media (max-width:600px) { /* breakpoint, defined with media keyword */
+    h1 {
+        font-size: 15px;
+    }
+}
+```
+
+- The code is telling the computer, that for anything below 600px, use the styling specified below, instead. 
+- max-width targets smaller screens, min-width targets bigger. There's combinations too: 
+```css
+@media (min-width: 900px) and (max-width:600px) {
+    /* style with styles in your style in the stylesheet */
+}
+```
+- There's a keyword screen that's basically obscure given its redundancy. For its purpose tho, print works well
+
+
+## Note
+Chrome Dev Tools got entire preview sizes for specific phones with an added responsive option to make and see changes to your sites on the go
